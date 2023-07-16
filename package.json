@@ -10,6 +10,8 @@
     "autofix": "pnpm eslint --fix \"./**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@nanostores/query": "^0.2.2",
+    "@nanostores/react": "^0.7.1",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
@@ -18,6 +20,9 @@
     "next": "13.4.10",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.4.1",
+    "sass": "^1.63.6",
+    "swr": "^2.2.0",
     "typescript": "5.1.6"
   }
 }

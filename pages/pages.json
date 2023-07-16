@@ -1,0 +1,7 @@
+[
+  { "name": "Home", "src": "/" },
+  { "name": "Static example", "src": "/(1)static" },
+  { "name": "React hooks demo", "src": "/(2)react-hooks" },
+  { "name": "SWR demo", "src": "/(3)swr" },
+  { "name": "nanoquery demo", "src": "/(4)nanoquery" }
+]
