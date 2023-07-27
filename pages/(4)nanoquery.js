@@ -1,4 +1,4 @@
-import StatelessTable from '../components/StatelessTable';
+import StaticTable from '../components/rick-and-morty-character-components/StaticTable';
 import { getStaticData, toastFetcher, API_URL } from '../lib/fetcher';
 // import { useState, useEffect } from 'react';
 
@@ -20,7 +20,7 @@ function UsefulComponent() {
   return <>
     {loading && <>loading....</>}
     {error && <>Error {error.toString()}</>}
-    {data && <StatelessTable data={data} />}
+    {data && <StaticTable data={data} />}
   </>;
 }
 

@@ -1,9 +1,14 @@
-import StatelessTable from '../components/StatelessTable';
+import StaticTable from '../components/rick-and-morty-character-components/StaticTable';
+import StaticGrid from '../components/rick-and-morty-character-components/StaticGrid';
 import { getStaticData } from '../lib/fetcher';
 
 
 export default function StaticPage({ data }) {
-  return <StatelessTable data={data} />;
+  return <>
+    <StaticTable data={data} />
+    <hr/>
+    <StaticGrid data={data} />
+  </>;
 }
 
 

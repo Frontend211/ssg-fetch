@@ -1,0 +1,30 @@
+.card 
+  display: grid
+  grid-template: "ava text" 1fr "bottom text" 1fr / 1fr 1fr
+  border-radius: 1em 
+  box-shadow: 3px 2px 8px 2px gray
+  transition: transform 1s
+  overflow: hidden
+  background-color: aliceblue
+  &:hover
+    transform: scale(1.1)
+
+  .text
+    grid-area: text
+  .bottom
+    grid-area: bottom
+
+  img
+    aspect-ratio: 1/1
+    width: 128px
+    border-radius: 1em 
+
+  .name
+    font-size: 1em
+    font-weight: bold
+  
+  .type
+    font-size: 1em
+
+  .status
+    font-size: 1em
